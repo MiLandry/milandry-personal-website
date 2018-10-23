@@ -5,6 +5,8 @@ module.exports = {
     'comma-dangle': [2, 'always-multiline'],
     // require or disallow use of semicolons instead of ASI
     'semi': [2, 'never'],
+    //allow unescaped html
+    "react/no-unescaped-entities": [0],
       
     },
 };

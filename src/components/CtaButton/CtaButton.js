@@ -1,13 +1,18 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Button from '@material-ui/core/Button'
+// import PropTypes from 'prop-types'
 
 // import Header from './header'
 // import './layout.css'
 
-const CtaButton = props => <div>CtaButton</div>
+const CtaButton = () => (
+  <Button variant="contained" color="primary">
+      Hello World
+  </Button>
+)
 
-CtaButton.propTypes = {
-  // children: PropTypes.node.isRequired,
-}
+// CtaButton.propTypes = {
+//   // children: PropTypes.node.isRequired,
+// }
 
 export default CtaButton
