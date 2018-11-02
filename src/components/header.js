@@ -1,38 +1,20 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
+import ExternalLink from './ExternalLink'
 
-const Header = ({ siteTitle }) => (
+const myLinkedIn = 'https://www.linkedin.com/in/michael-l-25263060/'
+const myGithub = 'https://github.com/MiLandry'
+
+const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      position: 'absolute',
+      top: '1rem',
+      right: '2rem',
     }}
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+    <ExternalLink href={myLinkedIn}>LinkedIn</ExternalLink>
+    <ExternalLink href={myGithub}>GitHub</ExternalLink>
   </div>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string.isRequired,
-}
 
 export default Header

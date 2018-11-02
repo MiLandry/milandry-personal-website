@@ -45,13 +45,15 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  /*background-color: grey;*/
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-shadow: 2px 2px 3px black, 0 0 35px blue, 0 0 5px white;
 }
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
