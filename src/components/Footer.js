@@ -16,15 +16,16 @@ const onCodeSampleClick = () => {
 }
 
 const Footer = () => (
-  <div>
-    <CTAButton
-      onClick={onResumeClick}
-    >
+  <div
+    style={{
+      display: 'flex',
+      justifyContent: 'space-around',
+    }}
+  >
+    <CTAButton onClick={onResumeClick}>
     Resume
     </CTAButton>
-    <CTAButton
-      onClick={onCodeSampleClick}
-    >
+    <CTAButton onClick={onCodeSampleClick}>
     Code Sample
     </CTAButton>
   </div>
