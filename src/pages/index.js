@@ -6,11 +6,11 @@ const elevatorSpeech = 'I am a software engineer in the Atlanta area. I love bui
 const cta = "If you think you might have a project or if you need my help with anything then let's get in touch."
 
 
+// <h3>It's nice to meet you</h3>
 const IndexPage = () => (
   <Layout>
-    <h1>Hi, I'm Michael Landry</h1>
-    <h2>A software engineer.</h2>
-    <h3>It's nice to meet you</h3>
+    <h2>Michael Landry</h2>
+    <h1>SOFTWARE ENGINEER</h1>
     <p>{elevatorSpeech}</p>
     <p>{cta}</p>
     <CTAButton />
