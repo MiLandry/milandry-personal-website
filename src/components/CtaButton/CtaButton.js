@@ -16,7 +16,7 @@ const CtaButton = () => (
     type="submit"
     onClick={onClick}
   >
-      Resume
+    Resume
   </Button>
 )
 
