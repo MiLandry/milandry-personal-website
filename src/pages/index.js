@@ -7,7 +7,7 @@ const cta = "If you think you might have a project or if you need my help with a
 
 const IndexPage = () => (
   <Layout>
-    <h2>Michael Landry</h2>
+    <h1>Michael Landry</h1>
     <h1>SOFTWARE ENGINEER</h1>
     <p>{elevatorSpeech}</p>
     <p>{cta}</p>
